@@ -46,7 +46,7 @@
 
 html, body {
   height: 100%;
-  margin: 0;
+    margin: 0;
   padding: 0;
 }
 
@@ -63,9 +63,9 @@ body {
    Layout & Container
    ========================================== */
 .container {
-  max-width: 1180px;
-  width: 100%;
-  margin: 0 auto;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
   padding: 0 var(--spacing-sm);
 }
 
@@ -111,13 +111,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   padding: var(--spacing-sm) var(--spacing-md);
-  border: none;
+    border: none;
   border-radius: var(--border-radius-sm);
   font-family: var(--font-family-primary);
   font-size: var(--font-size-base);
   font-weight: 600;
   text-decoration: none;
-  cursor: pointer;
+    cursor: pointer;
   transition: var(--transition);
   text-align: center;
   min-height: 44px;
@@ -177,12 +177,12 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 985px;
-  position: relative;
+    position: relative;
 }
 
 .header::before {
   content: '';
-  position: absolute;
+    position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: var(--spacing-sm) 0;
-  position: relative;
+    position: relative;
   z-index: 2;
 }
 
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navigation {
   flex: 1;
-  display: flex;
+    display: flex;
   justify-content: center;
 }
 
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-section {
   position: relative;
   z-index: 2;
-  text-align: center;
+    text-align: center;
   padding: var(--spacing-2xl) 0;
 }
 
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-group {
-  display: flex;
+    display: flex;
   flex-direction: column;
 }
 
@@ -394,8 +394,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   gap: var(--spacing-md);
 }
 
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery-image {
-  width: 100%;
+    width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: var(--border-radius);
@@ -445,9 +445,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
   width: 60px;
   height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-icon .icon {
@@ -481,12 +481,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .destinations-header {
-  text-align: center;
+    text-align: center;
   margin-bottom: var(--spacing-xl);
 }
 
 .destinations-grid {
-  display: grid;
+    display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: var(--spacing-lg);
 }
@@ -544,7 +544,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-title {
   font-size: var(--font-size-xl);
-  font-weight: 700;
+    font-weight: 700;
   color: var(--color-primary);
   margin-bottom: var(--spacing-xs);
 }
@@ -552,7 +552,7 @@ h1, h2, h3, h4, h5, h6 {
 .card-subtitle {
   font-size: var(--font-size-base);
   color: var(--color-secondary);
-  font-weight: 600;
+    font-weight: 600;
   margin-bottom: var(--spacing-md);
 }
 
@@ -572,7 +572,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contacts-header {
-  text-align: center;
+    text-align: center;
   margin-bottom: var(--spacing-xl);
 }
 
@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-menu {
   list-style: none;
   padding: 0;
-  margin: 0;
+    margin: 0;
 }
 
 .footer-menu li {
@@ -700,7 +700,7 @@ h1, h2, h3, h4, h5, h6 {
 .copyright {
   font-size: var(--font-size-sm);
   color: rgba(255, 255, 255, 0.7);
-  margin: 0;
+    margin: 0;
 }
 
 /* ==========================================
